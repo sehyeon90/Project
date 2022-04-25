@@ -13,9 +13,15 @@ const _html = `
 </ul>
 `;
 
-export default class Nav {
-  constructor(selector) {
-    const navElement = document.querySelector(selector);
-    navElement.innerHTML = _html;
-  }
+// export default class Nav {
+//   constructor(selector) {
+//     const navElement = document.querySelector(selector);
+//     navElement.innerHTML = _html;
+//   }
+// }
+
+// 각각의 식별자 내보내기
+export default function Nav(selector) {
+  const navElement = document.querySelector(selector);
+  navElement.innerHTML = _html;
 }

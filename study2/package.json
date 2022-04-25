@@ -11,11 +11,15 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "form-data": "^4.0.0",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "node-notifier": "github:mikaelbr/node-notifier",
     "pug": "2.0.0-beta11",
+    "stream": "^0.0.2",
     "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "babel-loader": "^8.2.4",
